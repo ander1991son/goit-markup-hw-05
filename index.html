@@ -45,11 +45,16 @@
     <main>
       
         <section class="section-h3  svg-section ">
-          <div data-modal class="container-main">
+          <div class="container-main">
           <h1 class="solution">
             SOLUCIONES EFICACES PARA SU NEGOCIO
           </h1>
-            <button class="button-servicio">Solicite nuestro servicio</button>
+            <button class="button-servicio" data-modal-open>Solicite nuestro servicio</button>
+          </div>
+          <div class="backdrop  is-hidden" data-modal>
+            <div class="modal">
+              <button class="close" data-modal-close="">x</button>
+            </div>
           </div>
         </section>
         <div class="container">
